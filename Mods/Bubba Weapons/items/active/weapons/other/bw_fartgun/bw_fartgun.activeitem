@@ -1,0 +1,102 @@
+{
+  "itemName" : "bw_fartgun",
+  "level" : 4,
+  "price" : 1000,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "This gun shoots farts!",
+  "shortdescription" : "Fart Gun",
+  "tooltipKind" : "gun",
+  "category" : "pistol",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","pistol","upgradeableWeapon"],
+
+  "inventoryIcon" : "bw_fartgunicon.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "bw_fartgun.png",
+    "barrel" : "",
+    "muzzleFlash" : ""
+  },
+  "animationCustom" : {
+    "particleEmitters" : {
+      "muzzleFlash" : {
+        "particles" : [
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] }
+        ]
+      }
+    },
+    "sounds" : {
+      "fire" : [ "/sfx/gun/bw_fartgun.ogg" ]
+    }
+  },
+  "baseOffset" : [0.2, 0.125],
+  "muzzleOffset" : [1.0, 0.125],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "poison",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.10,
+    "baseDps" : 10.00,
+    "energyUsage" : 50.00,
+    "inaccuracy" : 0.05,
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "bw_fart",
+    "projectileParameters" : {
+      "knockback" : 2,
+      "statusEffects" : [ "weakpoison" ],
+      "bounces" : 1,
+      "damageKind" : "poisonbullet"
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 10,
+        "weaponRotation" : 10,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.15,
+        "armRotation" : 10,
+        "weaponRotation" : 10,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "gristlegun_l6.png",
+    "animationParts" : {
+      "middle" : "gristlegun_l6.png"
+    },
+    "shortdescription" : "Cartilage Gun ^yellow;^reset;"
+  }
+}

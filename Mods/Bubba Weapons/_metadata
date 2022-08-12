@@ -1,0 +1,13 @@
+{
+  "author" : "BigAl22",
+  "description" : "A mod that consists of Bubba weapons!",
+  "friendlyName" : "Bubba Weapons",
+  "includes" : [],
+  "link" : "steam://url/CommunityFilePage/2847818248",
+  "name" : "bubbaweapons",
+  "priority" : 0,
+  "requires" : [],
+  "steamContentId" : "2847818248",
+  "tags" : "Weapons",
+  "version" : "0.0.2.0"
+}

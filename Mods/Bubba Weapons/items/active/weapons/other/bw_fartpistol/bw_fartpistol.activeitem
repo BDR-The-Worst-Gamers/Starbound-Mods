@@ -1,7 +1,7 @@
 {
   "itemName" : "bw_fartpistol",
   "level" : 4,
-  "price" : 1000,
+  "price" : 500,
   "maxStack" : 1,
   "rarity" : "Legendary",
   "description" : "This gun shoots farts!",
@@ -46,7 +46,7 @@
     "class" : "GunFire",
 
     "fireTime" : 1.00,
-    "baseDps" : 4.00,
+    "baseDps" : 2.00,
     "energyUsage" : 20.00,
     "inaccuracy" : 0.05,
     "projectileCount" : 1,

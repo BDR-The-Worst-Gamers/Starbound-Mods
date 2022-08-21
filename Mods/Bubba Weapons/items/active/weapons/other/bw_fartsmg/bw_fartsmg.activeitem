@@ -1,7 +1,7 @@
 {
   "itemName" : "bw_fartsmg",
   "level" : 4,
-  "price" : 1000,
+  "price" : 500,
   "maxStack" : 1,
   "rarity" : "Legendary",
   "description" : "This gun shoots farts! But at Auto!",
@@ -46,7 +46,7 @@
     "class" : "GunFire",
 
     "fireTime" : 0.10,
-    "baseDps" : 7.50,
+    "baseDps" : 15.50,
     "energyUsage" : 45.00,
     "inaccuracy" : 0.08,
     "projectileCount" : 2,

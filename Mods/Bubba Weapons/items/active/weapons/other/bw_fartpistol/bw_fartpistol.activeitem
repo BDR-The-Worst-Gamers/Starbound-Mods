@@ -1,22 +1,22 @@
 {
-  "itemName" : "bw_fartgun",
+  "itemName" : "bw_fartpistol",
   "level" : 4,
   "price" : 1000,
   "maxStack" : 1,
   "rarity" : "Legendary",
   "description" : "This gun shoots farts!",
-  "shortdescription" : "Fart Gun",
+  "shortdescription" : "Fart Pistol",
   "tooltipKind" : "gun",
   "category" : "pistol",
   "twoHanded" : false,
   "itemTags" : ["weapon","ranged","pistol","upgradeableWeapon"],
 
-  "inventoryIcon" : "bw_fartgunicon.png",
+  "inventoryIcon" : "bw_fartpistolicon.png",
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "bw_fartgun.png",
+    "middle" : "bw_fartpistol.png",
     "barrel" : "",
     "muzzleFlash" : ""
   },
@@ -31,7 +31,7 @@
       }
     },
     "sounds" : {
-      "fire" : [ "/sfx/gun/bw_fartgun.ogg" ]
+      "fire" : [ "/sfx/gun/bw_fartpistol.ogg" ]
     }
   },
   "baseOffset" : [0.2, 0.125],
@@ -45,16 +45,16 @@
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 0.10,
-    "baseDps" : 10.00,
-    "energyUsage" : 50.00,
+    "fireTime" : 1.00,
+    "baseDps" : 4.00,
+    "energyUsage" : 20.00,
     "inaccuracy" : 0.05,
     "projectileCount" : 1,
     "fireType" : "auto",
 
     "projectileType" : "bw_fart",
     "projectileParameters" : {
-      "knockback" : 2,
+      "knockback" : 1,
       "statusEffects" : [ "weakpoison" ],
       "bounces" : 1,
       "damageKind" : "poisonbullet"
@@ -93,9 +93,9 @@
   "builder" : "/items/buildscripts/buildunrandweapon.lua",
 
   "upgradeParameters" : {
-    "inventoryIcon" : "gristlegun_l6.png",
+    "inventoryIcon" : "bw_fartpistolicon.png",
     "animationParts" : {
-      "middle" : "gristlegun_l6.png"
+      "middle" : "bw_fartpistol.png"
     },
     "shortdescription" : "Cartilage Gun ^yellow;^reset;"
   }

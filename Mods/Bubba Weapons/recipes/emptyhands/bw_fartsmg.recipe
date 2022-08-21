@@ -1,11 +1,11 @@
 {
   "input" : [
     { "item" : "venomsample", "count" : 1 },    
-    { "item" : "copperbar", "count" : 4 },
-    { "item" : "ironbar", "count" : 1 }
+    { "item" : "copperbar", "count" : 6 },
+    { "item" : "ironbar", "count" : 2 }
   ],
   "output" : {
-    "item" : "bw_fartgun",
+    "item" : "bw_fartsmg",
     "count" : 1
   },
   "groups" : [ "plain", "objects", "all", "tools" ]

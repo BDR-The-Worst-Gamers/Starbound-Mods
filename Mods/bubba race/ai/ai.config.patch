@@ -1,0 +1,10 @@
+[{
+		"op" : "add",
+		"path" : "/species/bubba",
+		"value" : {
+			"aiFrames" : "bubbaAI.png",
+			"portraitFrames" : "portraits/bubbaportrait.png",
+			"staticFrames" : "staticbubba.png"	
+		}
+	}
+]

@@ -1,0 +1,8 @@
+{
+  "name" : "grey",
+  "category" : "bubbapet",
+  "type" : "body",
+  "frames" : {
+    "body" : "grey.png"
+  }
+}

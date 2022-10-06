@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 20 },
+    { "item" : "bubbatier5achest", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "bubbatier6achest", "count" : 1 },
+  "groups" : [ "craftingaccelerator", "armours", "all" ]
+}

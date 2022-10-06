@@ -1,0 +1,8 @@
+{
+  "name" : "pink",
+  "category" : "bubbapet",
+  "type" : "body",
+  "frames" : {
+    "body" : "pink.png"
+  }
+}

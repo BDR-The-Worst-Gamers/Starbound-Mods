@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "venomsample", "count" : 5 },    
+    { "item" : "copperbar", "count" : 10 },
+    { "item" : "ironbar", "count" : 2 },
+    { "item" : "glass", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "bw_fartsniper",
+    "count" : 1
+  },
+  "groups" : [ "plain", "objects", "all", "tools" ]
+}

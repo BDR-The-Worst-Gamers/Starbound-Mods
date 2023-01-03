@@ -52,7 +52,7 @@
     "projectileCount" : 1,
     "fireType" : "semi",
 
-    "projectileType" : "bw_fart",
+    "projectileType" : "bw_fartsniperprojectile",
     "projectileParameters" : {
       "knockback" : 0,
       "statusEffects" : [ "weakpoison" ],

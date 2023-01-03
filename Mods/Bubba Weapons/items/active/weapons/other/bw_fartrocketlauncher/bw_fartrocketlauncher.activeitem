@@ -1,22 +1,22 @@
 {
-  "itemName" : "bw_fartsniper",
+  "itemName" : "bw_fartrocketlauncher",
   "level" : 4,
   "price" : 750,
   "maxStack" : 1,
   "rarity" : "Legendary",
   "description" : "This gun shoots farts! But at longer range!",
-  "shortdescription" : "Fart Sniper",
+  "shortdescription" : "Fart Rocket Launcher",
   "tooltipKind" : "gun",
-  "category" : "sniperRifle",
+  "category" : "rocketLauncher",
   "twoHanded" : true,
-  "itemTags" : ["weapon","ranged","Sniper"],
+  "itemTags" : ["weapon","ranged","rocketLauncher"],
 
-  "inventoryIcon" : "bw_fartsnipericon.png",
+  "inventoryIcon" : "bw_fartrocketLaunchericon.png",
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "bw_fartsniper.png",
+    "middle" : "bw_fartrocketLauncher.png",
     "barrel" : "",
     "muzzleFlash" : ""
   },
@@ -31,7 +31,7 @@
       }
     },
     "sounds" : {
-      "fire" : [ "/sfx/gun/bw_fartsniper.ogg" ]
+      "fire" : [ "/sfx/gun/bw_fartrocketLauncher.ogg" ]
     }
   },
   "baseOffset" : [0.2, 0.125],
@@ -52,7 +52,7 @@
     "projectileCount" : 1,
     "fireType" : "semi",
 
-    "projectileType" : "bw_fartsniperprojectile",
+    "projectileType" : "bw_fartrocketLauncherprojectile",
     "projectileParameters" : {
       "knockback" : 0,
       "statusEffects" : [ "weakpoison" ],
@@ -93,9 +93,9 @@
   "builder" : "/items/buildscripts/buildunrandweapon.lua",
 
   "upgradeParameters" : {
-    "inventoryIcon" : "bw_fartsnipericon.png",
+    "inventoryIcon" : "bw_fartrocketLaunchericon.png",
     "animationParts" : {
-      "middle" : "bw_fartssnipericon.png"
+      "middle" : "bw_fartrocketLaunchericon.png"
     },
     "shortdescription" : "Cartilage Gun ^yellow;^reset;"
   }

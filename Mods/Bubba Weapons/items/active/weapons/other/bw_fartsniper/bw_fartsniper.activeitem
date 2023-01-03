@@ -7,9 +7,9 @@
   "description" : "This gun shoots farts! But at longer range!",
   "shortdescription" : "Fart Sniper",
   "tooltipKind" : "gun",
-  "category" : "Sniper",
+  "category" : "sniperRifle",
   "twoHanded" : true,
-  "itemTags" : ["weapon","ranged","Sniper","upgradeableWeapon"],
+  "itemTags" : ["weapon","ranged","Sniper"],
 
   "inventoryIcon" : "bw_fartsnipericon.png",
 

@@ -9,7 +9,7 @@
   "tooltipKind" : "gun",
   "category" : "machinepistol",
   "twoHanded" : false,
-  "itemTags" : ["weapon","ranged","machinepistol","upgradeableWeapon"],
+  "itemTags" : ["weapon","ranged","machinepistol"],
 
   "inventoryIcon" : "bw_fartsmgicon.png",
 

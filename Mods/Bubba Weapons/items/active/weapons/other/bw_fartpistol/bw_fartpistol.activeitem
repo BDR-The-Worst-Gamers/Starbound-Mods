@@ -1,6 +1,5 @@
 {
   "itemName" : "bw_fartpistol",
-  "level" : 4,
   "price" : 500,
   "maxStack" : 1,
   "rarity" : "Legendary",
@@ -9,7 +8,10 @@
   "tooltipKind" : "gun",
   "category" : "pistol",
   "twoHanded" : false,
-  "itemTags" : ["weapon","ranged","pistol","upgradeableWeapon"],
+  "itemTags" : ["weapon","ranged","pistol"],
+  "level" : 4,
+  
+  
 
   "inventoryIcon" : "bw_fartpistolicon.png",
 

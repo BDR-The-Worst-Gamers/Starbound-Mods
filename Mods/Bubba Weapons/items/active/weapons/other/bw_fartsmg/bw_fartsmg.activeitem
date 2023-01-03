@@ -1,6 +1,5 @@
 {
   "itemName" : "bw_fartsmg",
-  "level" : 4,
   "price" : 500,
   "maxStack" : 1,
   "rarity" : "Legendary",
@@ -8,18 +7,13 @@
   "shortdescription" : "Fart SMG",
   "tooltipKind" : "gun",
   "category" : "machinepistol",
-  "twoHanded" : false,
+  "twoHanded" : true,
   "itemTags" : ["weapon","ranged","machinepistol"],
-
+  "level" : 4,
+  
   "inventoryIcon" : "bw_fartsmgicon.png",
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
-  "animationParts" : {
-    "butt" : "",
-    "middle" : "bw_fartsmg.png",
-    "barrel" : "",
-    "muzzleFlash" : ""
-  },
   "animationCustom" : {
     "particleEmitters" : {
       "muzzleFlash" : {
@@ -34,8 +28,8 @@
       "fire" : [ "/sfx/gun/bw_fartsmg.ogg" ]
     }
   },
-  "baseOffset" : [0.2, 0.125],
-  "muzzleOffset" : [1.0, 0.125],
+  "baseOffset" : [0.2, 0.1],
+  "muzzleOffset" : [1.0, 0.1],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
@@ -64,7 +58,7 @@
       "idle" : {
         "armRotation" : 0,
         "weaponRotation" : 0,
-        "twoHanded" : false,
+        "twoHanded" : true,
 
         "allowRotate" : true,
         "allowFlip" : true
@@ -73,7 +67,7 @@
         "duration" : 0,
         "armRotation" : 10,
         "weaponRotation" : 10,
-        "twoHanded" : false,
+        "twoHanded" : true,
 
         "allowRotate" : false,
         "allowFlip" : true
@@ -82,12 +76,19 @@
         "duration" : 0.15,
         "armRotation" : 10,
         "weaponRotation" : 10,
-        "twoHanded" : false,
+        "twoHanded" : true,
 
         "allowRotate" : false,
         "allowFlip" : true
       }
     }
+  },
+
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "bw_fartsmg.png",
+    "barrel" : "",
+    "muzzleFlash" : ""
   },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua",
@@ -97,6 +98,6 @@
     "animationParts" : {
       "middle" : "bw_fartsmgicon.png"
     },
-    "shortdescription" : "Cartilage Gun ^yellow;^reset;"
+    "shortdescription" : "Fart Gun ^yellow;^reset;"
   }
 }

@@ -1,8 +1,0 @@
-{
-  "name" : "blue",
-  "category" : "bubbapet",
-  "type" : "body",
-  "frames" : {
-    "body" : "blue.png"
-  }
-}

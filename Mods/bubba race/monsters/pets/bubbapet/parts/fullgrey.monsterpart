@@ -1,8 +1,0 @@
-{
-  "name" : "fullgrey",
-  "category" : "bubbapet",
-  "type" : "body",
-  "frames" : {
-    "body" : "fullgrey.png"
-  }
-}

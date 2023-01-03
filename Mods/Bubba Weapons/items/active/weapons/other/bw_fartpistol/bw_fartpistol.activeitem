@@ -11,8 +11,6 @@
   "itemTags" : ["weapon","ranged","pistol"],
   "level" : 4,
   
-  
-
   "inventoryIcon" : "bw_fartpistolicon.png",
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
@@ -54,7 +52,7 @@
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "bw_fart",
+    "projectileType" : "bw_fartpistolprojectile",
     "projectileParameters" : {
       "knockback" : 1,
       "statusEffects" : [ "weakpoison" ],

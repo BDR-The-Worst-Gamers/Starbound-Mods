@@ -46,11 +46,11 @@
     "projectileCount" : 2,
     "fireType" : "auto",
 
-    "projectileType" : "bw_fart",
+    "projectileType" : "bw_fartsmgprojectile",
     "projectileParameters" : {
       "knockback" : 0,
       "statusEffects" : [ "weakpoison" ],
-      "bounces" : 1,
+      "bounces" : 2,
       "damageKind" : "poisonbullet"
     },
 

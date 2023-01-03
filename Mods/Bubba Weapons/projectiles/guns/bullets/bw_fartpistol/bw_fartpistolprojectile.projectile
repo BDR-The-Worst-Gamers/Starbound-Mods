@@ -1,6 +1,6 @@
 {
-  "projectileName" : "bw_fart",
-  "image" : "fart.png",
+  "projectileName" : "bw_fartpistolprojectile",
+  "image" : "pistolprojectile.png",
   "animationCycle" : 0.25,
   "frameNumber" : 1,
   "damageKindImage" : "icon.png",

@@ -1,0 +1,118 @@
+{
+  "itemName" : "bw_fartsniper",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "bw_fartsnipericon.png",
+  "description" : "This gun shoots farts at a high speed!",
+  "shortdescription" : "Fart Sniper",
+
+  "tooltipKind" : "gun",
+  "category" : "sniperRifle",
+  "itemTags" : ["weapon", "ranged", "sniperRifle"],
+  "twoHanded" : true,
+  
+  "maxStack" : 1,
+  "level" : 4,
+  "price" : 1000,
+
+  "baseOffset" : [0.9, 0.35],
+  "muzzleOffset" : [3.0, 0.125],
+
+  "elementalType" : "poison",
+  "altAbilityType" : "markedshot",
+
+  "primaryAbility" :
+  {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 1.50,
+    "baseDps" : 8.00,
+    "energyUsage" : 24.00,
+    "inaccuracy" : 0.008,
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "bw_sniperprojectile",
+    "projectileParameters" : 
+    {
+      "knockback" : 40,
+      "speed" : 100,
+      "statusEffects" : [ "weakpoison" ],
+      "bounces" : 1,
+      "damageKind" : "poisonbullet"
+    },
+    "stances" : 
+    {
+      "idle" : 
+      {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : 
+      {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : 
+      {
+        "duration" : 0.11,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : 
+  {
+      "butt" : "",
+      "middle" : "bw_fartsniper.png",
+      "barrel" : "",
+      "muzzleFlash" : "/items/active/ranged/muzzleflash2.png"
+  },
+  "animationCustom" : 
+  {
+    "lights" : 
+    { 
+      "glow" : 
+      {
+        "active" : true,
+        "position" : [0.75, 0.5],
+        "color" : [101, 52, 120]
+      }
+    },
+    "particleEmitters" : 
+    {
+        "muzzleFlash" : 
+        {
+          "particles" : 
+          [
+            { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+            { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+            { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] }
+          ]
+        }
+    },
+    "sounds" : 
+    {
+      "fire" : [ "/sfx/gun/bw_sniperSound.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+
+}

@@ -1,6 +1,6 @@
 {
-  "projectileName" : "bw_fartsmgprojectile",
-  "image" : "smgprojectile.png",
+  "projectileName" : "bw_smgprojectile",
+  "image" : "bw_smgprojectile.png",
   "animationCycle" : 0.25,
   "frameNumber" : 1,
   "damageKindImage" : "icon.png",

@@ -52,7 +52,7 @@
     "projectileCount" : 1,
     "fireType" : "semi",
 
-    "projectileType" : "bw_fartsniperprojectile",
+    "projectileType" : "bw_sniperprojectile",
     "projectileParameters" : {
       "knockback" : 0,
       "statusEffects" : [ "weakpoison" ],
@@ -95,7 +95,7 @@
   "upgradeParameters" : {
     "inventoryIcon" : "bw_fartsnipericon.png",
     "animationParts" : {
-      "middle" : "bw_fartssnipericon.png"
+      "middle" : "bw_fartsniper.png"
     },
     "shortdescription" : "Cartilage Gun ^yellow;^reset;"
   }

@@ -52,7 +52,7 @@
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "bw_fartpistolprojectile",
+    "projectileType" : "bw_pistolprojectile",
     "projectileParameters" : {
       "knockback" : 1,
       "statusEffects" : [ "weakpoison" ],

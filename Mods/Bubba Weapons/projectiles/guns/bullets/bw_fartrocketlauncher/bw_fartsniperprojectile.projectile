@@ -1,6 +1,6 @@
 {
-  "projectileName" : "bw_fartrocketlauncherprojectile",
-  "image" : "rocketlauncherprojectile.png",
+  "projectileName" : "bw_rocketLauncherprojectile",
+  "image" : "bw_rocketlauncherprojectile.png",
   "animationCycle" : 0.25,
   "frameNumber" : 1,
   "damageKindImage" : "icon.png",

@@ -1,6 +1,6 @@
 {
-  "projectileName" : "bw_fartsniperprojectile",
-  "image" : "sniperprojectile.png",
+  "projectileName" : "bw_sniperprojectile",
+  "image" : "bw_sniperprojectile.png",
   "animationCycle" : 0.25,
   "frameNumber" : 1,
   "damageKindImage" : "icon.png",

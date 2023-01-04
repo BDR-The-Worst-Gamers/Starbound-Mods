@@ -52,7 +52,7 @@
     "projectileCount" : 1,
     "fireType" : "semi",
 
-    "projectileType" : "bw_fartrocketLauncherprojectile",
+    "projectileType" : "bw_rocketLauncherprojectile",
     "projectileParameters" : {
       "knockback" : 0,
       "statusEffects" : [ "weakpoison" ],
@@ -73,7 +73,7 @@
         "duration" : 0,
         "armRotation" : 10,
         "weaponRotation" : 10,
-        "twoHanded" : false,
+        "twoHanded" : true,
 
         "allowRotate" : false,
         "allowFlip" : true
@@ -82,7 +82,7 @@
         "duration" : 0.15,
         "armRotation" : 10,
         "weaponRotation" : 10,
-        "twoHanded" : false,
+        "twoHanded" : true,
 
         "allowRotate" : false,
         "allowFlip" : true

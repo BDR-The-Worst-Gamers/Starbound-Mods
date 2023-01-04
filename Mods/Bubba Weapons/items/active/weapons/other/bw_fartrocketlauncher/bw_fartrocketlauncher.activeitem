@@ -14,8 +14,8 @@
   "level" : 4,
   "price" : 1000,
 
-  "baseOffset" : [0.0, 0.0],
-  "muzzleOffset" : [1.0, 0.0],
+  "baseOffset" : [0.2, 0.6],
+  "muzzleOffset" : [1.0, 0.5],
 
   "elementalType" : "poison",
 

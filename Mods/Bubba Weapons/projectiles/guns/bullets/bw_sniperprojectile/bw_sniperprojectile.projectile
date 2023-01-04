@@ -1,10 +1,12 @@
 {
-  "projectileName" : "bw_smgprojectile",
-  "image" : "bw_smgprojectile.png",
+  "projectileName" : "bw_sniperprojectile",
+  "physics" : "bullet",
+  "image" : "bw_sniperprojectile.png",
   "animationCycle" : 0.25,
   "frameNumber" : 1,
   "damageKindImage" : "icon.png",
   "pointLight" : false,
+  "hydrophobic" : true,
   "actionOnReap" : [
     {
       "action" : "config",
@@ -12,6 +14,6 @@
     }
   ],
   "power" : 50.0,
-  "speed" : 100,
+  "speed" : 50.0,
   "damageKind" : "poisonbullet"
 }

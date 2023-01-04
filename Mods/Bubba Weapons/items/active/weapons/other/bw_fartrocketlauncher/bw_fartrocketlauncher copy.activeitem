@@ -1,21 +1,21 @@
 {
-  "itemName" : "bw_fartsmg",
-  "description" : "This gun shoots farts! But at Auto!",
-  "shortdescription" : "Fart SMG",
+  "itemName" : "bw_fartrocketlauncher",
+  "description" : "This gun shoots heavy fucking farts!",
+  "shortDescription" : "Fart Rocket Launcher",
   "rarity" : "Legendary",
-  "inventoryIcon" : "bw_fartsmgicon.png",
+  "inventoryIcon" : "bw_fartrocketlaunchericon.png",
 
-  "tooltipKind" : "machinepistol",
-  "category" : "pistol",
-  "itemTags" : ["weapon", "ranged", "machinepistol"],
+  "tooltipKind" : "gun",
+  "category" : "rocketLauncher",
+  "itemTags" : ["weapon", "ranged", "rocketLauncher"],
   "twoHanded" : true,
   
   "maxStack" : 1,
   "level" : 4,
-  "price" : 500,
+  "price" : 1000,
 
-  "baseOffset" : [0.2, 0.1],
-  "muzzleOffset" : [1.0, 0.1],
+  "baseOffset" : [0.2, 0.125],
+  "muzzleOffset" : [1.0, 0.125],
 
   "elementalType" : "poison",
 
@@ -24,19 +24,19 @@
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 0.10,
-    "baseDps" : 12.50,
-    "energyUsage" : 45.00,
-    "inaccuracy" : 0.08,
-    "projectileCount" : 2,
+    "fireTime" : 1.00,
+    "baseDps" : 2.00,
+    "energyUsage" : 20.00,
+    "inaccuracy" : 0.05,
+    "projectileCount" : 1,
     "fireType" : "auto",
 
     "projectileType" : "bw_smallprojectile",
     "projectileParameters" : 
     {
-      "knockback" : 0,
+      "knockback" : 1,
       "statusEffects" : [ "weakpoison" ],
-      "bounces" : 2,
+      "bounces" : 1,
       "damageKind" : "poisonbullet"
     },
     "stances" : 
@@ -45,7 +45,7 @@
       {
         "armRotation" : 0,
         "weaponRotation" : 0,
-        "twoHanded" : true,
+        "twoHanded" : false,
 
         "allowRotate" : true,
         "allowFlip" : true
@@ -55,7 +55,7 @@
         "duration" : 0,
         "armRotation" : 10,
         "weaponRotation" : 10,
-        "twoHanded" : true,
+        "twoHanded" : false,
 
         "allowRotate" : false,
         "allowFlip" : true
@@ -65,7 +65,7 @@
         "duration" : 0.15,
         "armRotation" : 10,
         "weaponRotation" : 10,
-        "twoHanded" : true,
+        "twoHanded" : false,
 
         "allowRotate" : false,
         "allowFlip" : true
@@ -77,7 +77,7 @@
   "animationParts" : 
   {
       "butt" : "",
-      "middle" : "bw_fartsmg.png",
+      "middle" : "bw_fartpistol.png",
       "barrel" : "",
       "muzzleFlash" : "/items/active/ranged/muzzleflash2.png"
   },

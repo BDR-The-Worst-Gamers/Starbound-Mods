@@ -1,17 +1,5 @@
 {
-  "itemName" : "bw_fartrocketlauncher",
-  "level" : 4,
-  "price" : 750,
-  "maxStack" : 1,
-  "rarity" : "Legendary",
-  "description" : "This gun shoots farts! But at longer range!",
-  "shortdescription" : "Fart Rocket Launcher",
-  "tooltipKind" : "gun",
-  "category" : "rocketLauncher",
-  "twoHanded" : true,
-  "itemTags" : ["weapon","ranged","rocketLauncher"],
-
-  "inventoryIcon" : "bw_fartrocketLaunchericon.png",
+  
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
@@ -52,7 +40,7 @@
     "projectileCount" : 1,
     "fireType" : "semi",
 
-    "projectileType" : "bw_rocketLauncherprojectile",
+    "projectileType" : "bw_rocketlauncherprojectile",
     "projectileParameters" : {
       "knockback" : 0,
       "statusEffects" : [ "weakpoison" ],

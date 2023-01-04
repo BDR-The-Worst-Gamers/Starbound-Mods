@@ -1,5 +1,5 @@
 {
-  "author" : ["BigAl22", "Cousin Joey"],
+  "author" : "BigAl22",
   "description" : "A mod that consists of Bubba weapons!",
   "friendlyName" : "Bubba Weapons",
   "includes" : [],
@@ -9,5 +9,5 @@
   "requires" : [],
   "steamContentId" : "2847818248",
   "tags" : "Weapons",
-  "version" : "0.4.0"
+  "version" : "0.4.2"
 }

@@ -1,102 +1,107 @@
 {
-  "itemName" : "bw_fartpistol",
-  "price" : 500,
-  "maxStack" : 1,
-  "rarity" : "Legendary",
-  "description" : "This gun shoots farts!",
-  "shortdescription" : "Fart Pistol",
-  "tooltipKind" : "gun",
-  "category" : "pistol",
-  "twoHanded" : false,
-  "itemTags" : ["weapon","ranged","pistol"],
-  "level" : 4,
-  
-  "inventoryIcon" : "bw_fartpistolicon.png",
-
-  "animation" : "/items/active/weapons/ranged/gun.animation",
-  "animationParts" : {
-    "butt" : "",
-    "middle" : "bw_fartpistol.png",
-    "barrel" : "",
-    "muzzleFlash" : ""
-  },
-  "animationCustom" : {
-    "particleEmitters" : {
-      "muzzleFlash" : {
-        "particles" : [
-          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
-          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
-          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] }
-        ]
-      }
-    },
-    "sounds" : {
-      "fire" : [ "/sfx/gun/bw_fartpistol.ogg" ]
-    }
-  },
-  "baseOffset" : [0.2, 0.125],
-  "muzzleOffset" : [1.0, 0.125],
-
-  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-
-  "elementalType" : "poison",
-
-  "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
-    "class" : "GunFire",
-
-    "fireTime" : 1.00,
-    "baseDps" : 2.00,
-    "energyUsage" : 20.00,
-    "inaccuracy" : 0.05,
-    "projectileCount" : 1,
-    "fireType" : "auto",
-
-    "projectileType" : "bw_pistolprojectile",
-    "projectileParameters" : {
-      "knockback" : 1,
-      "statusEffects" : [ "weakpoison" ],
-      "bounces" : 1,
-      "damageKind" : "poisonbullet"
-    },
-
-    "stances" : {
-      "idle" : {
-        "armRotation" : 0,
-        "weaponRotation" : 0,
-        "twoHanded" : false,
-
-        "allowRotate" : true,
-        "allowFlip" : true
-      },
-      "fire" : {
-        "duration" : 0,
-        "armRotation" : 10,
-        "weaponRotation" : 10,
-        "twoHanded" : false,
-
-        "allowRotate" : false,
-        "allowFlip" : true
-      },
-      "cooldown" : {
-        "duration" : 0.15,
-        "armRotation" : 10,
-        "weaponRotation" : 10,
-        "twoHanded" : false,
-
-        "allowRotate" : false,
-        "allowFlip" : true
-      }
-    }
-  },
-
-  "builder" : "/items/buildscripts/buildunrandweapon.lua",
-
-  "upgradeParameters" : {
+    "itemName" : "bw_fartpistol",
+    "description" : "This gun shoots farts!",
+    "shortDescription" : "Fart Pistol",
+    "rarity" : "Legendary",
     "inventoryIcon" : "bw_fartpistolicon.png",
-    "animationParts" : {
-      "middle" : "bw_fartpistol.png"
+
+    "tooltipKind" : "gun",
+    "category" : "pistol",
+    "itemTags" : ["weapon", "ranged", "pistol"],
+    "twoHanded" : false,
+    
+    "maxStack" : 1,
+    "level" : 4,
+    "price" : 500,
+
+    "baseOffset" : [0.2, 0.125],
+    "muzzleOffset" : [1.0, 0.125],
+
+    "elementalType" : "poison",
+
+    "primaryAbility" :
+    {
+      "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+      "class" : "GunFire",
+
+      "fireTime" : 1.00,
+      "baseDps" : 2.00,
+      "energyUsage" : 20.00,
+      "inaccuracy" : 0.05,
+      "projectileCount" : 1,
+      "fireType" : "auto",
+
+      "projectileType" : "bw_smallprojectile",
+      "projectileParameters" : 
+      {
+        "knockback" : 1,
+        "statusEffects" : [ "weakpoison" ],
+        "bounces" : 1,
+        "damageKind" : "poisonbullet"
+      },
+      "stances" : 
+      {
+        "idle" : 
+        {
+          "armRotation" : 0,
+          "weaponRotation" : 0,
+          "twoHanded" : false,
+  
+          "allowRotate" : true,
+          "allowFlip" : true
+        },
+        "fire" : 
+        {
+          "duration" : 0,
+          "armRotation" : 10,
+          "weaponRotation" : 10,
+          "twoHanded" : false,
+  
+          "allowRotate" : false,
+          "allowFlip" : true
+        },
+        "cooldown" : 
+        {
+          "duration" : 0.15,
+          "armRotation" : 10,
+          "weaponRotation" : 10,
+          "twoHanded" : false,
+  
+          "allowRotate" : false,
+          "allowFlip" : true
+        }
+      }
     },
-    "shortdescription" : "Cartilage Gun ^yellow;^reset;"
-  }
+
+    "animation" : "/items/active/weapons/ranged/gun.animation",
+    "animationParts" : 
+    {
+        "butt" : "",
+        "middle" : "bw_fartpistol.png",
+        "barrel" : "",
+        "muzzleFlash" : "/items/active/ranged/muzzleflash2.png"
+    },
+    "animationCustom" : 
+    {
+      "particleEmitters" : 
+      {
+          "muzzleFlash" : 
+          {
+            "particles" : 
+            [
+              { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+              { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+              { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] }
+            ]
+          }
+      },
+      "sounds" : 
+      {
+        "fire" : [ "/sfx/gun/bw_smallWeaponsSound.ogg" ]
+      }
+    },
+
+    "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+    "builder" : "/items/buildscripts/buildunrandweapon.lua"
+
 }

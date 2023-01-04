@@ -1,0 +1,20 @@
+{
+  "projectileName" : "bw_rocketprojectile",
+  "physics" : "bullet",
+  "image" : "bw_rocketprojectile.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "hydrophobic" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/vsmallregularexplosion/vsmallregularexplosionknockback.config"
+    }
+  ],
+  "power" : 5.0,
+  "speed" : 50.0,
+  "damageType" : "NoDamage",
+  "damageKind" : "poisonbullet"
+}

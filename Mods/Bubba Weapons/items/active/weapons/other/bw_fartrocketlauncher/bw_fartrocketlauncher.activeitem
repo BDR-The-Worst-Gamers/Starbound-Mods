@@ -1,55 +1,48 @@
 {
-  
+  "itemName" : "bw_fartrocketlauncher",
+  "description" : "This gun shoots heavy fucking farts!",
+  "shortDescription" : "Fart Rocket Launcher",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "bw_fartrocketlaunchericon.png",
 
-  "animation" : "/items/active/weapons/ranged/gun.animation",
-  "animationParts" : {
-    "butt" : "",
-    "middle" : "bw_fartrocketLauncher.png",
-    "barrel" : "",
-    "muzzleFlash" : ""
-  },
-  "animationCustom" : {
-    "particleEmitters" : {
-      "muzzleFlash" : {
-        "particles" : [
-          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
-          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
-          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] }
-        ]
-      }
-    },
-    "sounds" : {
-      "fire" : [ "/sfx/gun/bw_fartrocketLauncher.ogg" ]
-    }
-  },
+  "tooltipKind" : "gun",
+  "category" : "rocketLauncher",
+  "itemTags" : ["weapon", "ranged", "rocketLauncher"],
+  "twoHanded" : true,
+  
+  "maxStack" : 1,
+  "level" : 4,
+  "price" : 1000,
+
   "baseOffset" : [0.2, 0.125],
   "muzzleOffset" : [1.0, 0.125],
 
-  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-
   "elementalType" : "poison",
 
-  "primaryAbility" : {
+  "primaryAbility" :
+  {
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
 
     "fireTime" : 0.10,
     "baseDps" : 25.00,
     "energyUsage" : 95.00,
-    "inaccuracy" : 0.001,
+    "inaccuracy" : 0.02,
     "projectileCount" : 1,
-    "fireType" : "semi",
+    "fireType" : "auto",
 
-    "projectileType" : "bw_rocketlauncherprojectile",
-    "projectileParameters" : {
-      "knockback" : 0,
+    "projectileType" : "bw_rocketprojectile",
+    "projectileParameters" : 
+    {
+      "knockback" : 2,
       "statusEffects" : [ "weakpoison" ],
       "bounces" : 1,
       "damageKind" : "poisonbullet"
     },
-
-    "stances" : {
-      "idle" : {
+    "stances" : 
+    {
+      "idle" : 
+      {
         "armRotation" : 0,
         "weaponRotation" : 0,
         "twoHanded" : true,
@@ -57,7 +50,8 @@
         "allowRotate" : true,
         "allowFlip" : true
       },
-      "fire" : {
+      "fire" : 
+      {
         "duration" : 0,
         "armRotation" : 10,
         "weaponRotation" : 10,
@@ -66,7 +60,8 @@
         "allowRotate" : false,
         "allowFlip" : true
       },
-      "cooldown" : {
+      "cooldown" : 
+      {
         "duration" : 0.15,
         "armRotation" : 10,
         "weaponRotation" : 10,
@@ -78,13 +73,35 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua",
-
-  "upgradeParameters" : {
-    "inventoryIcon" : "bw_fartrocketLaunchericon.png",
-    "animationParts" : {
-      "middle" : "bw_fartrocketLaunchericon.png"
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : 
+  {
+      "butt" : "",
+      "middle" : "bw_fartrocketlauncher.png",
+      "barrel" : "",
+      "muzzleFlash" : "/items/active/ranged/muzzleflash2.png"
+  },
+  "animationCustom" : 
+  {
+    "particleEmitters" : 
+    {
+        "muzzleFlash" : 
+        {
+          "particles" : 
+          [
+            { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+            { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+            { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] }
+          ]
+        }
     },
-    "shortdescription" : "Cartilage Gun ^yellow;^reset;"
-  }
+    "sounds" : 
+    {
+      "fire" : [ "/sfx/gun/bw_HEAVYWeaponsSound.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+
 }

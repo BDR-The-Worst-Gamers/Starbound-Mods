@@ -1,9 +1,9 @@
 {
     "itemName" : "bw_fartpistol",
-    "description" : "This gun shoots farts!",
-    "shortDescription" : "Fart Pistol",
     "rarity" : "Legendary",
     "inventoryIcon" : "bw_fartpistolicon.png",
+    "description" : "This gun shoots farts!",
+    "shortDescription" : "Fart Pistol",
 
     "tooltipKind" : "gun",
     "category" : "pistol",

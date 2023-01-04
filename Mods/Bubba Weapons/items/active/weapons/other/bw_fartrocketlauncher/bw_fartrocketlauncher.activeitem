@@ -1,9 +1,9 @@
 {
   "itemName" : "bw_fartrocketlauncher",
-  "description" : "This gun shoots heavy fucking farts!",
-  "shortDescription" : "Fart Rocket Launcher",
   "rarity" : "Legendary",
   "inventoryIcon" : "bw_fartrocketlaunchericon.png",
+  "description" : "This gun shoots heavy fucking farts!",
+  "shortDescription" : "Fart Rocket Launcher",
 
   "tooltipKind" : "gun",
   "category" : "rocketLauncher",
@@ -14,8 +14,8 @@
   "level" : 4,
   "price" : 1000,
 
-  "baseOffset" : [0.2, 0.125],
-  "muzzleOffset" : [1.0, 0.125],
+  "baseOffset" : [0.0, 0.0],
+  "muzzleOffset" : [1.0, 0.0],
 
   "elementalType" : "poison",
 
@@ -24,9 +24,9 @@
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 0.10,
-    "baseDps" : 25.00,
-    "energyUsage" : 95.00,
+    "fireTime" : 2.00,
+    "baseDps" : 17.00,
+    "energyUsage" : 50.00,
     "inaccuracy" : 0.02,
     "projectileCount" : 1,
     "fireType" : "auto",

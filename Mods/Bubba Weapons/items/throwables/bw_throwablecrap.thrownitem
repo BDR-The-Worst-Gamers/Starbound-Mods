@@ -1,0 +1,31 @@
+{
+    "itemName" : "bw_throwcrap",
+    "rarity" : "common",
+    "price" : 100,
+    "category" : "throwableItem",
+    "inventoryIcon" : "bw_crapprojectile.png",
+    "image" : "bw_crapprojectile.png",
+    "shortdescription" : "Crap",
+    "description" : "Eww, you're holding someones crap.",
+  
+    "ammoUsage" : 1,
+  
+    "edgeTrigger" : true,
+    "windupTime" : 0.0,
+    "cooldown" : 0.2,
+  
+    "projectileType" : "bw_crapprojectile",
+    "projectileConfig" : {
+      "speed" : 35,
+      "power" : 2,
+      "periodicActions" : [
+        {
+          "time" : 0,
+          "repeat" : false,
+          "action" : "sound",
+          "options" : [ "/sfx/projectiles/bw_poopsplat.ogg" ]
+        }
+      ]
+    }
+  }
+  

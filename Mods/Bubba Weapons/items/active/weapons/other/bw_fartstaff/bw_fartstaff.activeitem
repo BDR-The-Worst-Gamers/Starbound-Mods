@@ -44,7 +44,7 @@
     "animationParts" : {
       "staff" : "bw_fartstaff.png",
       "stone" : "",
-      "chargeEffect" : "bw_fartstaffglow.png"
+      "chargeEffect" : "bw_fartglow.png"
     },
     "animationCustom" : {
       "particleEmitters" : {

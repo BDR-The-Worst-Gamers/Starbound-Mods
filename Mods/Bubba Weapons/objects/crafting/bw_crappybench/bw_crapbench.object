@@ -1,0 +1,45 @@
+{
+    "objectName" : "bw_crapbench",
+    "colonyTags" : ["crafting"],
+    "printable" : false,
+    "price" : 30,
+    "rarity" : "Uncommon",
+    "interactAction" : "OpenCraftingInterface",
+    "interactData" : {
+      "config" : "/interface/windowconfig/craftingcrapbench.config",
+      "filter" : [ "crafter" ]
+    },
+    "description" : "This looks like a crafting table, but it stinks.",
+    "shortdescription" : "^orange;Crap Bench^white;",
+    "race" : "generic",
+    "category" : "crafting",
+    
+    "apexDescription" : "A healthy campfire. I could cook some food using it.",
+    "avianDescription" : "A campfire. It's useful for very basic cooking.",
+    "floranDescription" : "Floran hate flames, but likesss to cook. Cooking leadss to eating.",
+    "glitchDescription" : "Informed. Heating meat with fire is a basic form of cooking.",
+    "humanDescription" : "I've always enjoyed watching the flames of a campfire dance.",
+    "hylotlDescription" : "A campfire, I enjoy the simplicity of flame-cooked food.",
+    "novakidDescription" : "A toasty campfire for cookin'. What more d'ya need?",
+  
+    "inventoryIcon" : "bw_crapbenchicon.png",
+    "orientations" : [
+      {
+        "dualImage" : "bw_crapbench.png:<color>.<frame>",
+        "direction" : "left",
+        "flipImages" : false,
+  
+        "imagePosition" : [0, 0],
+        "frames" : 1,
+        "animationCycle" : 1.0,
+  
+        "spaces" : [[0, 0], [0, 1], [0, 2], [0, 3],
+                    [1, 0], [1, 1], [1, 2], [1, 3],
+                    [2, 0], [2, 1], [2, 2], [2, 3],
+                    [3, 0], [3, 1], [3, 2], [3, 3],
+                    [4, 0], [4, 1], [4, 2], [4, 3]],
+        "anchors" : [ "bottom" ]
+      }
+    ]
+  }
+  

@@ -4,7 +4,7 @@
     "bounces" : -1,
     "timeToLive" : 30,
     "power" : 5,
-    "physics" : "crapphysics",
+    "physics" : "paperplane",
     "image" : "bw_crapprojectile.png",
     "frameNumber" : 1,
     "windupFrames" : 1,

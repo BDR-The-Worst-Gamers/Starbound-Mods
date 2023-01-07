@@ -8,5 +8,25 @@
         "op" : "add",
         "path" : "/defaultBlueprints/tier1/-",
         "value" : { "item" : "bw_fartsmg" }
+    },
+    {
+        "op" : "add",
+        "path" : "/defaultBlueprints/tier1/-",
+        "value" : { "item" : "bw_fartsniper" }
+    },
+    {
+        "op" : "add",
+        "path" : "/defaultBlueprints/tier1/-",
+        "value" : { "item" : "bw_fartrocketlauncher" }
+    },
+    {
+        "op" : "add",
+        "path" : "/defaultBlueprints/tier1/-",
+        "value" : { "item" : "bw_fartstaff" }
+    },
+    {
+        "op" : "add",
+        "path" : "/defaultBlueprints/tier1/-",
+        "value" : { "item" : "bw_crapbench" }
     }
 ]

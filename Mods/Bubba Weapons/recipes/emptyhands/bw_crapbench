@@ -1,11 +1,11 @@
 {
   "input" : [
     { "item" : "venomsample", "count" : 1 },    
-    { "item" : "aegisalt", "count" : 4 },
-    { "item" : "titanium", "count" : 4 }
+    { "item" : "copperbar", "count" : 1 },
+    { "item" : "ironbar", "count" : 1 }
   ],
   "output" : {
-    "item" : "bw_fartstaff",
+    "item" : "bw_crapbench",
     "count" : 1
   },
   "groups" : [ "plain", "objects", "all", "tools" ]
